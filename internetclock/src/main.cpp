@@ -17,8 +17,8 @@ LiquidCrystal_I2C lcd(0x27,16,2);
 DHT dht(DHTPIN, DHTTYPE);
 
 
-const char *ssid     = "ozkantusun2";
-const char *password = "ozmusmemu210713";
+const char *ssid     = "wifissid";
+const char *password = "wifipassword";
 
 const long utcOffsetInSeconds = 3600;
 
